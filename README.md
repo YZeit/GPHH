@@ -1,4 +1,4 @@
-# DSS_GPHH
+# GPHH
 This repository includes the code related to the paper:
 Automatically evolving preference-based dispatching rules for multi-objective job shop scheduling
 https://doi.org/10.1007/s10951-023-00783-9

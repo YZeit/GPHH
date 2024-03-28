@@ -1,10 +1,12 @@
 # GPHH
 This repository includes the code related to the paper:
-Automatically evolving preference-based dispatching rules for multi-objective job shop scheduling
+
+**Automatically evolving preference-based dispatching rules for multi-objective job shop scheduling**
+
 https://doi.org/10.1007/s10951-023-00783-9
 
 # Abstract
 Dispatching rules represent a simple heuristic for finding good solutions for job shop scheduling problems. Due to their fast applicability and easy handling, they are often used in manufacturing companies to create appropriate production schedules. It has been shown that dispatching rules that are specifically designed for the requirements of a particular environment improve the performance of schedules. Hyper-heuristics based on genetic programming can be used for the automated generation of such dispatching rules. Evolutionary algorithms search the space of dispatching rule components for the most effective priority function to optimize the performance of the resulting schedule. Various studies have highlighted the advantages in the single-objective case, which made it possible to derive a large number of new dispatching rules that exceeded previous benchmark rules. Because it is usually necessary to consider more than one objective simultaneously to ensure effective creation of schedules, the need for a multi-objective optimization method arises. In this paper, we propose an interactive multi-objective optimization method, namely the reference point method, implemented in a hyper-heuristic genetic programming framework. A decision support system has also been developed and implemented in a web-based application to facilitate interaction with the user. Incorporating preferences into the solution process aims to efficiently evolve a dispatching rule that meets the expectations of a decision-maker. A fictitious experiment was carried out in a benchmark job shop environment. The results show that the final solution selected by the decision-maker can produce schedules achieving a desired compromise between the makespan, total tardiness, and total waiting time. Testing the evolved dispatching rule on an independent set of instances and comparing its performance with other benchmark dispatching rules revealed that the proposed method successfully finds dispatching rules that meet the decision-maker’s expectations and are capable of reproducing similar compromise schedules for unseen problems in the same environment.
 
 # Keywords
-Multi-objective optimization; Job shop scheduling; Decision support system; Hyper-heuristic; Genetic programming
+`Multi-objective optimization` `Job shop scheduling` `Decision support system` `Hyper-heuristic` `Genetic programming`
